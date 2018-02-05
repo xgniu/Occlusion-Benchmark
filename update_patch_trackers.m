@@ -55,6 +55,6 @@ function occ = update_patch_trackers(track_output,im)
     end
     
     remain_area = sum(mask(:));
-    occ = (remain_area/total_area) < 0.8;
+    occ = (remain_area/total_area) < 0.85;
 
 end

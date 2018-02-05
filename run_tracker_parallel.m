@@ -8,15 +8,15 @@ function run_tracker_parallel()
 
 %     parfor k = 1:numel(videos)
 %         disp(videos{k});
-%         if exist(['.\Results1\' videos{k} '_DSST.mat'],'file')~=2
-%             run_tracker_seq_DSST(videos{k});
+%         if exist(['.\Results1\' videos{k} '_KCF.mat'],'file')~=2
+%             run_tracker_seq_KCF(videos{k});
 %         end
 %     end
     
     parfor k = 1:numel(videos)
         disp(videos{k});
-        if exist(['.\Results1\' videos{k} '_KCF_OD.mat'],'file')~=2
-            run_tracker_seq(videos{k});
+        if exist(['.\Results1\' videos{k} '_DSST_OD.mat'],'file')~=2
+            run_tracker_seq_DSST_OD(videos{k});
         end
     end
 end
