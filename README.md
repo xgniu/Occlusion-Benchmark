@@ -1,5 +1,6 @@
 # Occlusion Benchmark
-This is the code for our proposed benchmark, which aims at evaluating the robustness of tracking algorithms to occlusion.
+This is the code for our proposed algorithm (Adaptive CODT) and the occlusion benchmark, which aims at evaluating 
+the robustness of tracking algorithms to occlusion.
 
 The dataset is available at https://pan.baidu.com/s/1qZ0KeoW. 
 
